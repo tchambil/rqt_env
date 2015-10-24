@@ -16,8 +16,7 @@
             <TURTLEBOT_STAGE_WORLD_FILE>/opt/ros/indigo/share/turtlebot_stage/maps/stage/maze.world </TURTLEBOT_STAGE_WORLD_FILE>
             <TURTLEBOT_BATTERY> /sys/class/power_supply/BAT0 </TURTLEBOT_BATTERY>
             <TURTLEBOT_STACKS> hexagons</TURTLEBOT_STACKS>
-            <TURTLEBOT_SIMULATION>false
-</TURTLEBOT_SIMULATION>
+            <TURTLEBOT_SIMULATION>false</TURTLEBOT_SIMULATION>
         </turtlebot>
         <PR2></PR2>
         <Parrot></Parrot>
