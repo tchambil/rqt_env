@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Document created by: HTROB,University of Chile with XmlGrid Online XML Editor,http://xmlgrid.net -->
+<configure>
+<robots>
+<turtlebot>
+<TURTLEBOT_NAME>turtlebot</TURTLEBOT_NAME>
+<TURTLEBOT_TYPE>turtlebot</TURTLEBOT_TYPE>
+<TURTLEBOT_BASE>kobuki</TURTLEBOT_BASE>
+<TURTLEBOT_STAGE_MAP_FILE>/opt/ros/indigo/share/turtlebot_stage/maps/maze.yaml</TURTLEBOT_STAGE_MAP_FILE>
+<TURTLEBOT_3D_SENSOR>asus_xtion_pro </TURTLEBOT_3D_SENSOR>
+<TURTLEBOT_STDR_MAP_FILE> /opt/ros/indigo/share/turtlebot_stdr/maps/sparse_obstacles.yaml</TURTLEBOT_STDR_MAP_FILE>
+<TURTLEBOT_MAP_FILE> /opt/ros/indigo/share/turtlebot_navigation/maps/willow-2010-02-18-0.10.yaml</TURTLEBOT_MAP_FILE>
+<TURTLEBOT_INTERACTIONS_LIST>[turtlebot_bringup/admin.interactions, turtlebot_bringup/documentation.interactions, turtlebot_bringup/pairing.interactions, turtlebot_bringup/visualisation.interactions] </TURTLEBOT_INTERACTIONS_LIST>
+<TURTLEBOT_SERIAL_PORT> /dev/kobuki</TURTLEBOT_SERIAL_PORT>
+<TURTLEBOT_RAPP_PACKAGE_BLACKLIST> []</TURTLEBOT_RAPP_PACKAGE_BLACKLIST>
+<TURTLEBOT_STAGE_WORLD_FILE>/opt/ros/indigo/share/turtlebot_stage/maps/stage/maze.world </TURTLEBOT_STAGE_WORLD_FILE>  <TURTLEBOT_BATTERY> /sys/class/power_supply/BAT0 </TURTLEBOT_BATTERY>
+<TURTLEBOT_STACKS> hexagons</TURTLEBOT_STACKS>
+<TURTLEBOT_SIMULATION>false
+</TURTLEBOT_SIMULATION>      
+</turtlebot>
+<PR2> 
+</PR2>
+<Parrot> 
+</Parrot>
+</robots>
+<general>
+<ORBIT_SOCKETDIR>/tmp/orbit-robotica</ORBIT_SOCKETDIR>
+<ROS_ROOT>/opt/ros/indigo/share/ros</ROS_ROOT>
+<ROS_PACKAGE_PATH>/home/robotica/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks</ROS_PACKAGE_PATH>
+<ROS_MASTER_URI>http://localhost:11311</ROS_MASTER_URI>
+<ROS_HOSTNAME>localhost</ROS_HOSTNAME>
+<ROS_DISTRO>indigo</ROS_DISTRO>
+<PYTHONPATH>/home/robotica/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages</PYTHONPATH>
+<ROS_ETC_DIR>/opt/ros/indigo/etc/ros</ROS_ETC_DIR>   
+</general>
+</configure>
