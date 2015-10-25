@@ -2,7 +2,7 @@
 <!--Document created by: HTROB,University of Chile with XmlGrid Online XML Editor,http://xmlgrid.net -->
 <configure>
     <robots>
-        <ROBOT ID="turtlebot">
+        <ROBOT ID="turtlebot" STATUS="1">
             <TURTLEBOT_NAME>turtlebot</TURTLEBOT_NAME>
             <TURTLEBOT_TYPE>turtlebot</TURTLEBOT_TYPE>
             <TURTLEBOT_BASE>kobuki</TURTLEBOT_BASE>
