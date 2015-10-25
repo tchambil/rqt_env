@@ -18,20 +18,19 @@
             <TURTLEBOT_STACKS> hexagons</TURTLEBOT_STACKS>
             <TURTLEBOT_SIMULATION>false</TURTLEBOT_SIMULATION>
             <ROS_PACKAGE_PATH>/home/robotica/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks</ROS_PACKAGE_PATH>
-            <ROS_MASTER_URI>http://localhost:11311</ROS_MASTER_URI>
+            <ROS_MASTER_URI>http://172.17.69.247:11311</ROS_MASTER_URI>
             <ROS_HOSTNAME>localhost</ROS_HOSTNAME>
             <ROS_DISTRO>indigo</ROS_DISTRO>
-        
         </ROBOT>
         <ROBOT ID="PR2">
             <ROS_PACKAGE_PATH>/home/robotica/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks</ROS_PACKAGE_PATH>
-            <ROS_MASTER_URI>http://localhost:11311</ROS_MASTER_URI>
+            <ROS_MASTER_URI>http://172.17.69.248:11312</ROS_MASTER_URI>
             <ROS_HOSTNAME>localhost</ROS_HOSTNAME>
             <ROS_DISTRO>indigo</ROS_DISTRO>
         </ROBOT>
-         <ROBOT ID="Parrot">
+        <ROBOT ID="Parrot">
             <ROS_PACKAGE_PATH>/home/robotica/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks</ROS_PACKAGE_PATH>
-            <ROS_MASTER_URI>http://localhost:11311</ROS_MASTER_URI>
+            <ROS_MASTER_URI>http://172.17.69.248:11313</ROS_MASTER_URI>
             <ROS_HOSTNAME>localhost</ROS_HOSTNAME>
             <ROS_DISTRO>indigo</ROS_DISTRO>
         </ROBOT>
