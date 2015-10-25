@@ -2,7 +2,7 @@
 <!--Document created by: HTROB,University of Chile with XmlGrid Online XML Editor,http://xmlgrid.net -->
 <configure>
     <robots>
-        <turtlebot>
+        <ROBOT ID="turtlebot">
             <TURTLEBOT_NAME>turtlebot</TURTLEBOT_NAME>
             <TURTLEBOT_TYPE>turtlebot</TURTLEBOT_TYPE>
             <TURTLEBOT_BASE>kobuki</TURTLEBOT_BASE>
@@ -22,19 +22,19 @@
             <ROS_HOSTNAME>localhost</ROS_HOSTNAME>
             <ROS_DISTRO>indigo</ROS_DISTRO>
         
-        </turtlebot>
-        <PR2>
+        </ROBOT>
+        <ROBOT ID="PR2">
             <ROS_PACKAGE_PATH>/home/robotica/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks</ROS_PACKAGE_PATH>
             <ROS_MASTER_URI>http://localhost:11311</ROS_MASTER_URI>
             <ROS_HOSTNAME>localhost</ROS_HOSTNAME>
             <ROS_DISTRO>indigo</ROS_DISTRO>
-        </PR2>
-        <Parrot>
+        </ROBOT>
+         <ROBOT ID="Parrot">
             <ROS_PACKAGE_PATH>/home/robotica/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks</ROS_PACKAGE_PATH>
             <ROS_MASTER_URI>http://localhost:11311</ROS_MASTER_URI>
             <ROS_HOSTNAME>localhost</ROS_HOSTNAME>
             <ROS_DISTRO>indigo</ROS_DISTRO>
-        </Parrot>
+        </ROBOT>
     </robots>
     <general>
         <ORBIT_SOCKETDIR>/tmp/orbit-robotica</ORBIT_SOCKETDIR>
