@@ -17,17 +17,28 @@
             <TURTLEBOT_BATTERY> /sys/class/power_supply/BAT0 </TURTLEBOT_BATTERY>
             <TURTLEBOT_STACKS> hexagons</TURTLEBOT_STACKS>
             <TURTLEBOT_SIMULATION>false</TURTLEBOT_SIMULATION>
+            <ROS_PACKAGE_PATH>/home/robotica/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks</ROS_PACKAGE_PATH>
+            <ROS_MASTER_URI>http://localhost:11311</ROS_MASTER_URI>
+            <ROS_HOSTNAME>localhost</ROS_HOSTNAME>
+            <ROS_DISTRO>indigo</ROS_DISTRO>
+        
         </turtlebot>
-        <PR2></PR2>
-        <Parrot></Parrot>
+        <PR2>
+            <ROS_PACKAGE_PATH>/home/robotica/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks</ROS_PACKAGE_PATH>
+            <ROS_MASTER_URI>http://localhost:11311</ROS_MASTER_URI>
+            <ROS_HOSTNAME>localhost</ROS_HOSTNAME>
+            <ROS_DISTRO>indigo</ROS_DISTRO>
+        </PR2>
+        <Parrot>
+            <ROS_PACKAGE_PATH>/home/robotica/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks</ROS_PACKAGE_PATH>
+            <ROS_MASTER_URI>http://localhost:11311</ROS_MASTER_URI>
+            <ROS_HOSTNAME>localhost</ROS_HOSTNAME>
+            <ROS_DISTRO>indigo</ROS_DISTRO>
+        </Parrot>
     </robots>
     <general>
         <ORBIT_SOCKETDIR>/tmp/orbit-robotica</ORBIT_SOCKETDIR>
         <ROS_ROOT>/opt/ros/indigo/share/ros</ROS_ROOT>
-        <ROS_PACKAGE_PATH>/home/robotica/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks</ROS_PACKAGE_PATH>
-        <ROS_MASTER_URI>http://localhost:11311</ROS_MASTER_URI>
-        <ROS_HOSTNAME>localhost</ROS_HOSTNAME>
-        <ROS_DISTRO>indigo</ROS_DISTRO>
         <PYTHONPATH>/home/robotica/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/indigo/lib/python2.7/dist-packages</PYTHONPATH>
         <ROS_ETC_DIR>/opt/ros/indigo/etc/ros</ROS_ETC_DIR>
     </general>
